@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-black flex flex-col items-center justify-center min-h-screen transition duration-500">
+    <button id="toggle-mode" class="absolute top-4 right-4 bg-gray-800 text-white py-2 px-4 rounded-lg">🌚</button>
+    <div class="text-center mt-16">
+        <h1 class="text-4xl font-bold mb-6">Rock Paper Scissors</h1>
+        <div class="mb-4">
+            <button id="rock" class="bg-blue-500 text-white py-2 px-4 rounded-lg mx-2">✊ Rock</button>
+            <button id="paper" class="bg-green-500 text-white py-2 px-4 rounded-lg mx-2">✋ Paper</button>
+            <button id="scissors" class="bg-red-500 text-white py-2 px-4 rounded-lg mx-2">✌️ Scissors</button>
+        </div>
+        <div class="mt-6">
+            <h2 class="text-2xl">Your Choice: <span id="user-choice" class="font-semibold"></span></h2>
+            <h2 class="text-2xl mt-4">Computer Choice: <span id="computer-choice" class="font-semibold"></span></h2>
+            <h2 class="text-2xl mt-4">Result: <span id="result" class="font-semibold"></span></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
