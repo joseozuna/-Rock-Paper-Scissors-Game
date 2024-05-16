@@ -16,8 +16,10 @@ Este es un simple juego de Piedra, Papel o Tijeras implementado con HTML, CSS y 
 
 ## Cómo jugar
 
-Simplemente abre (https://joseozuna.github.io/-Rock-Paper-Scissors-Game/)  para jugar.
+Para jugar, simplemente abre este enlace.
+
 
 ## Autor
 
-Jose Ozuna
+Este proyecto está basado en el curso de JavaScript de FreeCodeCamp impartido por Ania Kubow. Puedes ver el curso completo aquí. He realizado mejoras significativas en la parte gráfica y visual del proyecto.
+
